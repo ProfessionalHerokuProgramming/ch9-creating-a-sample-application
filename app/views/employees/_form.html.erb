@@ -1,0 +1,17 @@
+<%= form_for @employee, :url => employees_url do |f| %>
+  <div class="field">
+    ID: <br />
+    <%= f.text_field :ID__c %>
+  </div>
+  <div class="field">
+    Name: <br />
+    <%= f.text_field :Name %>
+  </div>
+  <div class="field">
+    E-mail: <br />
+    <%= f.text_field :Email__c %>
+  </div>
+  <div class="actions">
+    <%= f.submit "Create Employee" %>
+  </div>
+<% end %>
