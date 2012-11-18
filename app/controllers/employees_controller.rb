@@ -22,7 +22,8 @@ class EmployeesController < ApplicationController
       @employee['OwnerId'] = User.first.Id
 
         if @employee.save
-            redirect_to employees_url, notice: 'Employee was successfully created.'
+            redirect_to employees_url, notice: 
+                'Employee was successfully created.'
         else
             render action: "new"
         end

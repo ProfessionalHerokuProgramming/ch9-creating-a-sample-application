@@ -1,6 +1,6 @@
-client_id: 3MVG9y6x0357HleexrZb5pIO637KDmLe2oP6unrEicuwZi2Tdmuk1FIjOIJ36HcvDuKaW8vlp5DqZc6s5Jf9K
-client_secret: 8203035346345245334
-username: herokubook@database.com
-password: welcome99Hi3eH3Uz3gDy4Mhexnd0ItlW
+client_id: <DATABASE.COM CONSUMER KEY HERE>
+client_secret: <DATABASE.COM CONSUMER SECRET HERE>
+username: <YOUR DATABASE.COM LOGIN USERNAME>
+password: <YOUR DATABASE.COM LOGIN PASSWORD APPENDED TO YOUR SECURITY TOKEN>
 host: login.salesforce.com
 debugging: true
